@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Hindu Deity Encyclopedia",
+  "description": "An immersive digital book-style encyclopedia of Hindu deities, featuring detailed entries on avatars, manifestations, and Vedic elements with a premium interactive manuscript reading interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
