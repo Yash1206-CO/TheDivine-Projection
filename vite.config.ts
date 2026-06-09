@@ -5,8 +5,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // This tells Vite your site is hosted under your specific repository subfolder
-    base: '/TheDivine-Projection/',
+    // This forces Vite to generate relative asset paths (./assets/...)
+    // This allows the app to load perfectly both in VS Code and on GitHub Pages
+    base: '',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
